@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --color-paper: #fbf7f2;
+  --color-card: #ffffff;
+  --color-ink: #231a14;
+  --color-muted: #7a6c62;
+  --color-line: #eadfd3;
+  --color-brand: #d9532c;
+  --color-brand-dark: #b83f1c;
+  --color-brand-soft: #fde9e1;
+  --color-star: #f0a81a;
+}
+
+html, body, #root { min-height: 100%; }
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+button, input, select, textarea { font: inherit; }
+:focus-visible { outline: 2px solid var(--color-brand); outline-offset: 2px; }

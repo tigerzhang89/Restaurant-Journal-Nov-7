@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/cover.png" alt="Fork app screens: sign in, my list, log a visit, and a shared recommendation card" width="100%">
+</p>
+
 # Fork — a private restaurant journal
 
 Log a restaurant visit in seconds, then turn your own history into a shareable recommendation card for a friend.
@@ -8,6 +12,25 @@ Log a restaurant visit in seconds, then turn your own history into a shareable r
 - **Private by default:** each user only sees their own data; only the shared card is public.
 
 Built with React, Vite, TypeScript and Tailwind CSS. Backend: Supabase (email/password auth, Postgres with row-level security, private photo storage).
+
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/01-sign-in.png" width="200" alt="Sign in"><br><sub>Sign in</sub></td>
+    <td align="center"><img src="docs/screenshots/02-my-list.png" width="200" alt="My list"><br><sub>My list</sub></td>
+    <td align="center"><img src="docs/screenshots/03-filters.png" width="200" alt="Filters"><br><sub>Filter by tag, rating, area, date</sub></td>
+    <td align="center"><img src="docs/screenshots/04-quick-log.png" width="200" alt="Quick log"><br><sub>Quick log</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/05-restaurant-detail.png" width="200" alt="Restaurant detail"><br><sub>Visit history</sub></td>
+    <td align="center"><img src="docs/screenshots/06-recommend.png" width="200" alt="Recommendation builder"><br><sub>Pick matches</sub></td>
+    <td align="center"><img src="docs/screenshots/07-recommend-write.png" width="200" alt="Write the card"><br><sub>Make it personal</sub></td>
+    <td align="center"><img src="docs/screenshots/09-shared-card.png" width="200" alt="Shared recommendation card"><br><sub>Public share page</sub></td>
+  </tr>
+</table>
+
+Screenshots are from the offline demo mode with sample data.
 
 ## Run it
 
